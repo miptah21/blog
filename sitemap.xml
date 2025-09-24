@@ -1,7 +1,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
-    <loc>https:///blog/</loc>
-    <lastmod>2025-09-24T16:07:02.000Z</lastmod>
+    <loc>https:///blog/AI/main</loc>
+    <lastmod>2025-09-24T17:45:00.000Z</lastmod>
   </url><url>
-    <loc>https:///blog/test/main</loc>
-    <lastmod>2025-09-24T16:07:02.000Z</lastmod>
+    <loc>https:///blog/MLOps/1.-Introduction-to-Machine-Learning-in-Production/Overview</loc>
+    <lastmod>2025-09-24T17:45:00.000Z</lastmod>
+  </url><url>
+    <loc>https:///blog/MLOps/1.-Introduction-to-Machine-Learning-in-Production/Week-1---Overview-of-ML-Lifecycle-and-Deployment</loc>
+    <lastmod>2025-09-24T17:45:00.000Z</lastmod>
+  </url><url>
+    <loc>https:///blog/MLOps/1.-Introduction-to-Machine-Learning-in-Production/Week-2---Select-and-Train-a-Model</loc>
+    <lastmod>2025-09-24T17:45:00.000Z</lastmod>
+  </url><url>
+    <loc>https:///blog/MLOps/1.-Introduction-to-Machine-Learning-in-Production/Week-3---Data-Definition-and-Baseline</loc>
+    <lastmod>2025-09-24T17:45:00.000Z</lastmod>
+  </url><url>
+    <loc>https:///blog/</loc>
+    <lastmod>2025-09-24T17:45:00.000Z</lastmod>
   </url></urlset>
