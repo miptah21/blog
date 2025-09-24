@@ -1,33 +1,19 @@
-import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import style from "./styles/footer.scss"
-import { version } from "../../package.json"
-import { i18n } from "../i18n"
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types";
+import style from "./styles/footer.scss";
 
-interface Options {
-  links: Record<string, string>
-}
+export default (() => {
+  const Footer: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
+    const year = new Date().getFullYear();
 
-export default ((opts?: Options) => {
-  const Footer: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
-    const year = new Date().getFullYear()
-    const links = opts?.links ?? []
     return (
-      <footer class={`${displayClass ?? ""}`}>
+      <footer class={`${displayClass ?? ""}`} style={{ textAlign: "center", padding: "1.2rem", fontSize: "0.95rem", background: "#fff8e1", color: "#3e2f15" }}>
         <p>
-          {i18n(cfg.locale).components.footer.createdWith}{" "}
-          <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
+          Created with <span style={{ color: "red" }}>❤️</span> by Miftah &copy; {year}
         </p>
-        <ul>
-          {Object.entries(links).map(([text, link]) => (
-            <li>
-              <a href={link}>{text}</a>
-            </li>
-          ))}
-        </ul>
       </footer>
-    )
-  }
+    );
+  };
 
-  Footer.css = style
-  return Footer
-}) satisfies QuartzComponentConstructor
+  Footer.css = style;
+  return Footer;
+}) satisfies QuartzComponentConstructor;
