@@ -1,5 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import HeaderIndex from "./quartz/components/HeaderIndex"
 
 /**
  * Quartz 4 Configuration
@@ -8,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Miftah Notes",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -29,15 +30,15 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#fff8e1", // background utama, soft cream-kuning
+          lightgray: "#fffde7", // elemen sekunder, sangat lembut
+          gray: "#f0e6b6", // untuk blok konten / card
+          darkgray: "#a18f5a", // teks minor / border
+          dark: "#3e2f15", // teks utama, lebih gelap & mudah dibaca
+          secondary: "#284b63", // aksen/primary link
+          tertiary: "#84a59d", // aksen sekunder
+          highlight: "rgba(255, 248, 225, 0.2)", // highlight transparan
+          textHighlight: "#ffd633", // teks highlight
         },
         darkMode: {
           light: "#161618",

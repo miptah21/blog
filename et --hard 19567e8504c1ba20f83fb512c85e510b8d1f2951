@@ -1,0 +1,204 @@
+[33mcommit 5fa535ca5260f5dcab79eb3fe3b6741ea078ae7b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: miptah21 <miftahudinakbar21@gmail.com>
+Date:   Wed Sep 24 19:46:39 2025 +0700
+
+    Update: Content
+
+[33mcommit c118fce0ec75b7a2ecd933a7cae79ffbfc5e2ab5[m
+Author: miptah21 <miftahudinakbar21@gmail.com>
+Date:   Wed Sep 24 19:43:50 2025 +0700
+
+    Update: Content
+
+[33mcommit 19567e8504c1ba20f83fb512c85e510b8d1f2951[m
+Author: miptah21 <miftahudinakbar21@gmail.com>
+Date:   Wed Sep 24 19:40:38 2025 +0700
+
+    fix: publish Quartz public folder
+
+[33mcommit 3121cd91ef97fc18065a7ae4bdc27c9654a6ca94[m
+Author: miptah21 <miftahudinakbar21@gmail.com>
+Date:   Wed Sep 24 19:36:27 2025 +0700
+
+    Add GitHub Pages deploy workflow
+
+[33mcommit 846dfe759bcd7866b21f8f5e5013a56c57536175[m
+Author: miptah21 <miftahudinakbar21@gmail.com>
+Date:   Wed Sep 24 19:33:37 2025 +0700
+
+    fix: upgrade Node to 22 for Quartz
+
+[33mcommit 3dde0d6a74feab23d87562dfb9bd1b3ef7ba5b2a[m
+Author: miptah21 <miftahudinakbar21@gmail.com>
+Date:   Wed Sep 24 19:26:21 2025 +0700
+
+    fix: upgrade Node to 22 for Quartz
+
+[33mcommit c9ff96b379e2301b75a94e16a9139facd542ffed[m
+Author: miptah21 <miftahudinakbar21@gmail.com>
+Date:   Wed Sep 24 19:24:02 2025 +0700
+
+    save local changes before rebase
+
+[33mcommit 59ccff68d652daf30e4e1de890bab22091027fa2[m
+Author: miptah21 <miftahudinakbar21@gmail.com>
+Date:   Wed Sep 24 19:22:44 2025 +0700
+
+    fix: use quartz deploy workflow
+
+[33mcommit 39e919629e6489e07e82b03ac3857fac0df6f42f[m
+Author: miptah21 <115795350+miptah21@users.noreply.github.com>
+Date:   Wed Sep 24 19:18:54 2025 +0700
+
+    Create jekyll-gh-pages.yml
+
+[33mcommit 2744e49b48f639ea52794b97e16e7c55fce23e31[m
+Author: miptah21 <miftahudinakbar21@gmail.com>
+Date:   Wed Sep 24 19:00:04 2025 +0700
+
+    init: quartz site for miftah-notes
+
+[33mcommit eb6cc6ff8e3e9de9cf86e10b013d7785aa63aba5[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Sep 22 13:11:44 2025 -0700
+
+    chore(deps): bump the production-dependencies group with 9 updates (#2134)
+    
+    Bumps the production-dependencies group with 9 updates:
+    
+    | Package | From | To |
+    | --- | --- | --- |
+    | [is-absolute-url](https://github.com/sindresorhus/is-absolute-url) | `4.0.1` | `5.0.0` |
+    | [pixi.js](https://github.com/pixijs/pixijs) | `8.13.1` | `8.13.2` |
+    | [preact](https://github.com/preactjs/preact) | `10.27.1` | `10.27.2` |
+    | [pretty-bytes](https://github.com/sindresorhus/pretty-bytes) | `7.0.1` | `7.1.0` |
+    | [satori](https://github.com/vercel/satori) | `0.18.2` | `0.18.3` |
+    | [sharp](https://github.com/lovell/sharp) | `0.34.3` | `0.34.4` |
+    | [workerpool](https://github.com/josdejong/workerpool) | `9.3.3` | `9.3.4` |
+    | [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) | `24.3.1` | `24.5.2` |
+    | [esbuild](https://github.com/evanw/esbuild) | `0.25.9` | `0.25.10` |
+    
+    
+    Updates `is-absolute-url` from 4.0.1 to 5.0.0
+    - [Release notes](https://github.com/sindresorhus/is-absolute-url/releases)
+    - [Commits](https://github.com/sindresorhus/is-absolute-url/compare/v4.0.1...v5.0.0)
+    
+    Updates `pixi.js` from 8.13.1 to 8.13.2
+    - [Release notes](https://github.com/pixijs/pixijs/releases)
+    - [Commits](https://github.com/pixijs/pixijs/compare/v8.13.1...v8.13.2)
+    
+    Updates `preact` from 10.27.1 to 10.27.2
+    - [Release notes](https://github.com/preactjs/preact/releases)
+    - [Commits](https://github.com/preactjs/preact/compare/10.27.1...10.27.2)
+    
+    Updates `pretty-bytes` from 7.0.1 to 7.1.0
+    - [Release notes](https://github.com/sindresorhus/pretty-bytes/releases)
+    - [Commits](https://github.com/sindresorhus/pretty-bytes/compare/v7.0.1...v7.1.0)
+    
+    Updates `satori` from 0.18.2 to 0.18.3
+    - [Release notes](https://github.com/vercel/satori/releases)
+    - [Commits](https://github.com/vercel/satori/compare/0.18.2...0.18.3)
+    
+    Updates `sharp` from 0.34.3 to 0.34.4
+    - [Release notes](https://github.com/lovell/sharp/releases)
+    - [Commits](https://github.com/lovell/sharp/compare/v0.34.3...v0.34.4)
+    
+    Updates `workerpool` from 9.3.3 to 9.3.4
+    - [Changelog](https://github.com/josdejong/workerpool/blob/master/HISTORY.md)
+    - [Commits](https://github.com/josdejong/workerpool/commits)
+    
+    Updates `@types/node` from 24.3.1 to 24.5.2
+    - [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+    - [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+    
+    Updates `esbuild` from 0.25.9 to 0.25.10
+    - [Release notes](https://github.com/evanw/esbuild/releases)
+    - [Changelog](https://github.com/evanw/esbuild/blob/main/CHANGELOG.md)
+    - [Commits](https://github.com/evanw/esbuild/compare/v0.25.9...v0.25.10)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: is-absolute-url
+      dependency-version: 5.0.0
+      dependency-type: direct:production
+      update-type: version-update:semver-major
+      dependency-group: production-dependencies
+    - dependency-name: pixi.js
+      dependency-version: 8.13.2
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+      dependency-group: production-dependencies
+    - dependency-name: preact
+      dependency-version: 10.27.2
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+      dependency-group: production-dependencies
+    - dependency-name: pretty-bytes
+      dependency-version: 7.1.0
+      dependency-type: direct:production
+      update-type: version-update:semver-minor
+      dependency-group: production-dependencies
+    - dependency-name: satori
+      dependency-version: 0.18.3
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+      dependency-group: production-dependencies
+    - dependency-name: sharp
+      dependency-version: 0.34.4
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+      dependency-group: production-dependencies
+    - dependency-name: workerpool
+      dependency-version: 9.3.4
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+      dependency-group: production-dependencies
+    - dependency-name: "@types/node"
+      dependency-version: 24.5.2
+      dependency-type: direct:development
+      update-type: version-update:semver-minor
+      dependency-group: production-dependencies
+    - dependency-name: esbuild
+      dependency-version: 0.25.10
+      dependency-type: direct:development
+      update-type: version-update:semver-patch
+      dependency-group: production-dependencies
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+    Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+[33mcommit 4923affa7722dfc751f1074348e6dad214fe0c08[m[33m ([m[1;33mtag: [m[1;33mv4.5.2[m[33m)[m
+Author: Emile Bangma <github@emilebangma.com>
+Date:   Sun Sep 21 19:14:03 2025 +0200
+
+    fix(callouts)!: match callout DOM to Obsidian (#2104)
+    
+    * fix(callouts): match callout DOM to Obsidian
+    
+    * use new transition curve for all callout transitions
+    
+    * chore!: bump version to 4.5.2
+
+[33mcommit 4c78d29c13fa7bdcafca5c7b8c802e5e8e13e97c[m
+Author: Jacky Zhao <j.zhao2k19@gmail.com>
+Date:   Thu Sep 18 13:45:17 2025 -0700
+
+    fix(search): css min padding
+
+[33mcommit 7a77f54e50146b05bea62934f417016bbd81b794[m
+Author: Amir Pourmand <pourmand1376@gmail.com>
+Date:   Thu Sep 18 02:34:22 2025 +0330
+
+    fix(i18n): Add RTL Detection based on Config Set Language (#2100)
+    
+    * Add rtl automatic detection to base.scss
+    
+    * Implement RTL support for Arabic and Persian locales and update HTML direction attribute in renderPage component
+    
+    * Update HTML direction attribute in renderPage component to prioritize frontmatter dir value
+    
+    * Refactor renderPage component to simplify HTML direction attribute assignment by removing frontmatter dir fallback
+
+[33mcommit 03ccac2872822442b4e11457e1c3452167a3f639[m
+Author: Amir Po

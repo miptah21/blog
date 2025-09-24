@@ -1,0 +1,446 @@
+[33mcommit 6cb18d083a7088ffc20b5943953af2256c130858[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: miptah21 <miftahudinakbar21@gmail.com>
+Date:   Wed Sep 24 21:54:02 2025 +0700
+
+    Update
+
+[33mcommit 611127d629a252eb20d8c7c31a36710f18e2f982[m
+Author: miptah21 <miftahudinakbar21@gmail.com>
+Date:   Wed Sep 24 21:16:33 2025 +0700
+
+    Update: lightMode
+
+[33mcommit 4ec58e7a1fe55f972b6ef6395c07095a0e655007[m
+Author: miptah21 <miftahudinakbar21@gmail.com>
+Date:   Wed Sep 24 21:04:27 2025 +0700
+
+    feat: add elegant theme, dark mode, and reading progress bar
+
+[33mcommit 5fa535ca5260f5dcab79eb3fe3b6741ea078ae7b[m
+Author: miptah21 <miftahudinakbar21@gmail.com>
+Date:   Wed Sep 24 19:46:39 2025 +0700
+
+    Update: Content
+
+[33mcommit c118fce0ec75b7a2ecd933a7cae79ffbfc5e2ab5[m
+Author: miptah21 <miftahudinakbar21@gmail.com>
+Date:   Wed Sep 24 19:43:50 2025 +0700
+
+    Update: Content
+
+[33mcommit 19567e8504c1ba20f83fb512c85e510b8d1f2951[m
+Author: miptah21 <miftahudinakbar21@gmail.com>
+Date:   Wed Sep 24 19:40:38 2025 +0700
+
+    fix: publish Quartz public folder
+
+[33mcommit 3121cd91ef97fc18065a7ae4bdc27c9654a6ca94[m
+Author: miptah21 <miftahudinakbar21@gmail.com>
+Date:   Wed Sep 24 19:36:27 2025 +0700
+
+    Add GitHub Pages deploy workflow
+
+[33mcommit 846dfe759bcd7866b21f8f5e5013a56c57536175[m
+Author: miptah21 <miftahudinakbar21@gmail.com>
+Date:   Wed Sep 24 19:33:37 2025 +0700
+
+    fix: upgrade Node to 22 for Quartz
+
+[33mcommit 3dde0d6a74feab23d87562dfb9bd1b3ef7ba5b2a[m
+Author: miptah21 <miftahudinakbar21@gmail.com>
+Date:   Wed Sep 24 19:26:21 2025 +0700
+
+    fix: upgrade Node to 22 for Quartz
+
+[33mcommit c9ff96b379e2301b75a94e16a9139facd542ffed[m
+Author: miptah21 <miftahudinakbar21@gmail.com>
+Date:   Wed Sep 24 19:24:02 2025 +0700
+
+    save local changes before rebase
+
+[33mcommit 59ccff68d652daf30e4e1de890bab22091027fa2[m
+Author: miptah21 <miftahudinakbar21@gmail.com>
+Date:   Wed Sep 24 19:22:44 2025 +0700
+
+    fix: use quartz deploy workflow
+
+[33mcommit 39e919629e6489e07e82b03ac3857fac0df6f42f[m
+Author: miptah21 <115795350+miptah21@users.noreply.github.com>
+Date:   Wed Sep 24 19:18:54 2025 +0700
+
+    Create jekyll-gh-pages.yml
+
+[33mcommit 2744e49b48f639ea52794b97e16e7c55fce23e31[m
+Author: miptah21 <miftahudinakbar21@gmail.com>
+Date:   Wed Sep 24 19:00:04 2025 +0700
+
+    init: quartz site for miftah-notes
+
+[33mcommit eb6cc6ff8e3e9de9cf86e10b013d7785aa63aba5[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Sep 22 13:11:44 2025 -0700
+
+    chore(deps): bump the production-dependencies group with 9 updates (#2134)
+    
+    Bumps the production-dependencies group with 9 updates:
+    
+    | Package | From | To |
+    | --- | --- | --- |
+    | [is-absolute-url](https://github.com/sindresorhus/is-absolute-url) | `4.0.1` | `5.0.0` |
+    | [pixi.js](https://github.com/pixijs/pixijs) | `8.13.1` | `8.13.2` |
+    | [preact](https://github.com/preactjs/preact) | `10.27.1` | `10.27.2` |
+    | [pretty-bytes](https://github.com/sindresorhus/pretty-bytes) | `7.0.1` | `7.1.0` |
+    | [satori](https://github.com/vercel/satori) | `0.18.2` | `0.18.3` |
+    | [sharp](https://github.com/lovell/sharp) | `0.34.3` | `0.34.4` |
+    | [workerpool](https://github.com/josdejong/workerpool) | `9.3.3` | `9.3.4` |
+    | [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) | `24.3.1` | `24.5.2` |
+    | [esbuild](https://github.com/evanw/esbuild) | `0.25.9` | `0.25.10` |
+    
+    
+    Updates `is-absolute-url` from 4.0.1 to 5.0.0
+    - [Release notes](https://github.com/sindresorhus/is-absolute-url/releases)
+    - [Commits](https://github.com/sindresorhus/is-absolute-url/compare/v4.0.1...v5.0.0)
+    
+    Updates `pixi.js` from 8.13.1 to 8.13.2
+    - [Release notes](https://github.com/pixijs/pixijs/releases)
+    - [Commits](https://github.com/pixijs/pixijs/compare/v8.13.1...v8.13.2)
+    
+    Updates `preact` from 10.27.1 to 10.27.2
+    - [Release notes](https://github.com/preactjs/preact/releases)
+    - [Commits](https://github.com/preactjs/preact/compare/10.27.1...10.27.2)
+    
+    Updates `pretty-bytes` from 7.0.1 to 7.1.0
+    - [Release notes](https://github.com/sindresorhus/pretty-bytes/releases)
+    - [Commits](https://github.com/sindresorhus/pretty-bytes/compare/v7.0.1...v7.1.0)
+    
+    Updates `satori` from 0.18.2 to 0.18.3
+    - [Release notes](https://github.com/vercel/satori/releases)
+    - [Commits](https://github.com/vercel/satori/compare/0.18.2...0.18.3)
+    
+    Updates `sharp` from 0.34.3 to 0.34.4
+    - [Release notes](https://github.com/lovell/sharp/releases)
+    - [Commits](https://github.com/lovell/sharp/compare/v0.34.3...v0.34.4)
+    
+    Updates `workerpool` from 9.3.3 to 9.3.4
+    - [Changelog](https://github.com/josdejong/workerpool/blob/master/HISTORY.md)
+    - [Commits](https://github.com/josdejong/workerpool/commits)
+    
+    Updates `@types/node` from 24.3.1 to 24.5.2
+    - [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+    - [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+    
+    Updates `esbuild` from 0.25.9 to 0.25.10
+    - [Release notes](https://github.com/evanw/esbuild/releases)
+    - [Changelog](https://github.com/evanw/esbuild/blob/main/CHANGELOG.md)
+    - [Commits](https://github.com/evanw/esbuild/compare/v0.25.9...v0.25.10)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: is-absolute-url
+      dependency-version: 5.0.0
+      dependency-type: direct:production
+      update-type: version-update:semver-major
+      dependency-group: production-dependencies
+    - dependency-name: pixi.js
+      dependency-version: 8.13.2
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+      dependency-group: production-dependencies
+    - dependency-name: preact
+      dependency-version: 10.27.2
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+      dependency-group: production-dependencies
+    - dependency-name: pretty-bytes
+      dependency-version: 7.1.0
+      dependency-type: direct:production
+      update-type: version-update:semver-minor
+      dependency-group: production-dependencies
+    - dependency-name: satori
+      dependency-version: 0.18.3
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+      dependency-group: production-dependencies
+    - dependency-name: sharp
+      dependency-version: 0.34.4
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+      dependency-group: production-dependencies
+    - dependency-name: workerpool
+      dependency-version: 9.3.4
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+      dependency-group: production-dependencies
+    - dependency-name: "@types/node"
+      dependency-version: 24.5.2
+      dependency-type: direct:development
+      update-type: version-update:semver-minor
+      dependency-group: production-dependencies
+    - dependency-name: esbuild
+      dependency-version: 0.25.10
+      dependency-type: direct:development
+      update-type: version-update:semver-patch
+      dependency-group: production-dependencies
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+    Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+[33mcommit 4923affa7722dfc751f1074348e6dad214fe0c08[m[33m ([m[1;33mtag: [m[1;33mv4.5.2[m[33m)[m
+Author: Emile Bangma <github@emilebangma.com>
+Date:   Sun Sep 21 19:14:03 2025 +0200
+
+    fix(callouts)!: match callout DOM to Obsidian (#2104)
+    
+    * fix(callouts): match callout DOM to Obsidian
+    
+    * use new transition curve for all callout transitions
+    
+    * chore!: bump version to 4.5.2
+
+[33mcommit 4c78d29c13fa7bdcafca5c7b8c802e5e8e13e97c[m
+Author: Jacky Zhao <j.zhao2k19@gmail.com>
+Date:   Thu Sep 18 13:45:17 2025 -0700
+
+    fix(search): css min padding
+
+[33mcommit 7a77f54e50146b05bea62934f417016bbd81b794[m
+Author: Amir Pourmand <pourmand1376@gmail.com>
+Date:   Thu Sep 18 02:34:22 2025 +0330
+
+    fix(i18n): Add RTL Detection based on Config Set Language (#2100)
+    
+    * Add rtl automatic detection to base.scss
+    
+    * Implement RTL support for Arabic and Persian locales and update HTML direction attribute in renderPage component
+    
+    * Update HTML direction attribute in renderPage component to prioritize frontmatter dir value
+    
+    * Refactor renderPage component to simplify HTML direction attribute assignment by removing frontmatter dir fallback
+
+[33mcommit 03ccac2872822442b4e11457e1c3452167a3f639[m
+Author: Amir Pourmand <pourmand1376@gmail.com>
+Date:   Thu Sep 18 02:09:30 2025 +0330
+
+    feat: Update FlexSearch and Add Support for All Languages (#2108)
+    
+    * chore(deps): update flexsearch to version 0.8.205 and adjust search encoder.
+    
+    * refactor(search): enhance search encoder and update search results type
+    
+    - Improved the encoder function to filter out empty tokens.
+    - Updated the search results type from a specific FlexSearch type to a more generic 'any' type for flexibility.
+    - Removed redundant rtl property from the index configuration.
+    
+    * refactor(search): remove rtl property from search index configuration
+    
+    * refactor(search): improve encoder function formatting
+    
+    - Updated the encoder function to use consistent arrow function syntax for better readability.
+    
+    * refactor(search): update search results type to DefaultDocumentSearchResults
+    
+    - Imported DefaultDocumentSearchResults from FlexSearch for improved type safety.
+    - Changed the type of searchResults from 'any' to DefaultDocumentSearchResults<Item> for better clarity and maintainability.
+
+[33mcommit 6add0c837e6368d8a198490de25527527513c110[m
+Author: Jacky Zhao <j.zhao2k19@gmail.com>
+Date:   Wed Sep 17 15:26:49 2025 -0700
+
+    fix(style): layout flow, search restyle
+
+[33mcommit 8df8d5c6efc558bb3dc31f58b5094bae01eb71ab[m
+Author: Eritque arcus <q1930893235@gmail.com>
+Date:   Wed Sep 17 16:50:12 2025 -0500
+
+    fix: fix CNAME path error (#2096)
+    
+    * fix: fix CNAME path error
+    
+    * chore: Update quartz/plugins/emitters/cname.ts
+    
+    Co-authored-by: Jacky Zhao <j.zhao2k19@gmail.com>
+    
+    * chore: remove unused import
+    
+    ---------
+    
+    Co-authored-by: Jacky Zhao <j.zhao2k19@gmail.com>
+
+[33mcommit ac06a52903af216f5981cc1bf53de9ccb4862693[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Wed Sep 17 11:57:05 2025 -0700
+
+    chore(deps): bump the production-dependencies group with 3 updates (#2122)
+    
+    Bumps the production-dependencies group with 3 updates: [pixi.js](https://github.com/pixijs/pixijs), [satori](https://github.com/vercel/satori) and [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node).
+    
+    
+    Updates `pixi.js` from 8.12.0 to 8.13.1
+    - [Release notes](https://github.com/pixijs/pixijs/releases)
+    - [Commits](https://github.com/pixijs/pixijs/compare/v8.12.0...v8.13.1)
+    
+    Updates `satori` from 0.16.2 to 0.18.2
+    - [Release notes](https://github.com/vercel/satori/releases)
+    - [Commits](https://github.com/vercel/satori/compare/0.16.2...0.18.2)
+    
+    Updates `@types/node` from 24.3.0 to 24.3.1
+    - [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+    - [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: pixi.js
+      dependency-version: 8.13.1
+      dependency-type: direct:production
+      update-type: version-update:semver-minor
+      dependency-group: production-dependencies
+    - dependency-name: satori
+      dependency-version: 0.18.2
+      dependency-type: direct:production
+      update-type: version-update:semver-minor
+      dependency-group: production-dependencies
+    - dependency-name: "@types/node"
+      dependency-version: 24.3.1
+      dependency-type: direct:development
+      update-type: version-update:semver-patch
+      dependency-group: production-dependencies
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+    Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+[33mcommit 6457ad2092a44ab2fafae816ce9fc2d67d44769c[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Wed Sep 17 11:56:42 2025 -0700
+
+    chore(deps): bump actions/setup-node in the ci-dependencies group (#2123)
+    
+    Bumps the ci-dependencies group with 1 update: [actions/setup-node](https://github.com/actions/setup-node).
+    
+    
+    Updates `actions/setup-node` from 4 to 5
+    - [Release notes](https://github.com/actions/setup-node/releases)
+    - [Commits](https://github.com/actions/setup-node/compare/v4...v5)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: actions/setup-node
+      dependency-version: '5'
+      dependency-type: direct:production
+      update-type: version-update:semver-major
+      dependency-group: ci-dependencies
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+    Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+[33mcommit 05e4f4229100e0420316072fda9e8ddc6229db5f[m
+Author: Justin <127172022+jl33-ai@users.noreply.github.com>
+Date:   Thu Sep 18 02:32:25 2025 +1000
+
+    docs: update nav for cloudflare pages (#2130)
+
+[33mcommit 7bcab60f3ef83e31b7d1714a470f359c2b3daa4c[m
+Author: BVBFuchs <bjarneprogrammiert+github@gmail.com>
+Date:   Mon Sep 15 20:59:10 2025 +0200
+
+    Update de-DE.ts (#2128)
+
+[33mcommit e77a051144663ea08571e0bfb7aef6f463463f78[m
+Author: siaikin <abc1310054026@outlook.com>
+Date:   Tue Sep 9 11:06:28 2025 +0800
+
+    feat(analytics): add support for Vercel Web Analytics provider (#2119)
+    
+    * feat(analytics): add support for Vercel Web Analytics provider
+    
+    * fix: correct indentation for Vercel analytics provider condition
+
+[33mcommit ecb3d92941b7cae7ce222e2247c18918366207e4[m
+Author: Giuseppe Alfieri <150775639+giusalfieri@users.noreply.github.com>
+Date:   Sun Sep 7 20:58:47 2025 +0200
+
+    Fix: normalize chokidar paths for hot reload on Windows (#2120)
+    
+    Hot reload was not updating pages when editing Markdown files inside subfolders on Windows only.
+    The issue was caused by inconsistent path separators from chokidar.
+    This patch ensures paths are normalized with toPosixPath before rebuild.
+
+[33mcommit 42052ebb5fae0d41d2530fb02ed3e2f441af3539[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Fri Sep 5 11:32:01 2025 -0700
+
+    chore(deps): bump the production-dependencies group across 1 directory with 9 updates (#2106)
+    
+    Bumps the production-dependencies group with 9 updates in the / directory:
+    
+    | Package | From | To |
+    | --- | --- | --- |
+    | [@floating-ui/dom](https://github.com/floating-ui/floating-ui/tree/HEAD/packages/dom) | `1.7.3` | `1.7.4` |
+    | [@napi-rs/simple-git](https://github.com/Brooooooklyn/simple-git) | `0.1.21` | `0.1.22` |
+    | [ansi-truncate](https://github.com/fabiospampinato/ansi-truncate) | `1.3.0` | `1.4.0` |
+    | [preact](https://github.com/preactjs/preact) | `10.27.0` | `10.27.1` |
+    | [preact-render-to-string](https://github.com/preactjs/preact-render-to-string) | `6.5.13` | `6.6.1` |
+    | [pretty-bytes](https://github.com/sindresorhus/pretty-bytes) | `7.0.0` | `7.0.1` |
+    | [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) | `24.2.1` | `24.3.0` |
+    | [esbuild](https://github.com/evanw/esbuild) | `0.25.8` | `0.25.9` |
+    | [tsx](https://github.com/privatenumber/tsx) | `4.20.3` | `4.20.5` |
+    
+    
+    
+    Updates `@floating-ui/dom` from 1.7.3 to 1.7.4
+    - [Release notes](https://github.com/floating-ui/floating-ui/releases)
+    - [Changelog](https://github.com/floating-ui/floating-ui/blob/master/packages/dom/CHANGELOG.md)
+    - [Commits](https://github.com/floating-ui/floating-ui/commits/@floating-ui/dom@1.7.4/packages/dom)
+    
+    Updates `@napi-rs/simple-git` from 0.1.21 to 0.1.22
+    - [Release notes](https://github.com/Brooooooklyn/simple-git/releases)
+    - [Commits](https://github.com/Brooooooklyn/simple-git/compare/v0.1.21...v0.1.22)
+    
+    Updates `ansi-truncate` from 1.3.0 to 1.4.0
+    - [Commits](https://github.com/fabiospampinato/ansi-truncate/compare/v1.3.0...v1.4.0)
+    
+    Updates `preact` from 10.27.0 to 10.27.1
+    - [Release notes](https://github.com/preactjs/preact/releases)
+    - [Commits](https://github.com/preactjs/preact/compare/10.27.0...10.27.1)
+    
+    Updates `preact-render-to-string` from 6.5.13 to 6.6.1
+    - [Release notes](https://github.com/preactjs/preact-render-to-string/releases)
+    - [Changelog](https://github.com/preactjs/preact-render-to-string/blob/main/CHANGELOG.md)
+    - [Commits](https://github.com/preactjs/preact-render-to-string/compare/v6.5.13...v6.6.1)
+    
+    Updates `pretty-bytes` from 7.0.0 to 7.0.1
+    - [Release notes](https://github.com/sindresorhus/pretty-bytes/releases)
+    - [Commits](https://github.com/sindresorhus/pretty-bytes/compare/v7.0.0...v7.0.1)
+    
+    Updates `@types/node` from 24.2.1 to 24.3.0
+    - [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+    - [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+    
+    Updates `esbuild` from 0.25.8 to 0.25.9
+    - [Release notes](https://github.com/evanw/esbuild/releases)
+    - [Changelog](https://github.com/evanw/esbuild/blob/main/CHANGELOG.md)
+    - [Commits](https://github.com/evanw/esbuild/compare/v0.25.8...v0.25.9)
+    
+    Updates `tsx` from 4.20.3 to 4.20.5
+    - [Release notes](https://github.com/privatenumber/tsx/releases)
+    - [Changelog](https://github.com/privatenumber/tsx/blob/master/release.config.cjs)
+    - [Commits](https://github.com/privatenumber/tsx/compare/v4.20.3...v4.20.5)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: "@floating-ui/dom"
+      dependency-version: 1.7.4
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+      dependency-group: production-dependencies
+    - dependency-name: "@napi-rs/simple-git"
+      dependency-version: 0.1.22
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+      dependency-group: production-dependencies
+    - dependency-name: ansi-truncate
+      dependency-version: 1.4.0
+      dependency-type: direct:production
+      update-type: version-update:semve
