@@ -2,20 +2,17 @@ name: Deploy Quartz site
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '22'   # ⬅ ganti jadi Node 22
-      - run: npm install -g npm@latest   # pastikan npm terbaru
-      - run: npm install
-      - run: npx quartz build --output public
       - uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./public
