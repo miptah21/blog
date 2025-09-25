@@ -344,6 +344,5 @@ def leafPath(root, path):
 ![Priority-Queue](images/Priority-Queue.png)
 
 
-- Binary Heap is essentially tress that is consider complete Binary Trees. or means we have a trees that every single level of the trees there is no holes or null expect thelast level of the trees or leaf nodes.
-- 
+- Binary Heap is essentially tress that is consider complete Binary Trees. or means we have a trees that every single level of the trees there is no holes or null expect thelast level of the trees or leaf nodes. 
 
