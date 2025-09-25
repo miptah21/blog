@@ -1,3 +1,19 @@
+/* quartz/components/styles/readermode.scss
+   Reader Mode: only expand .center and its children,
+   do NOT change sidebar font-size. Keep sidebar hover behavior.
+*/
+
+/* Tunable vars — ubah sesuai preferensi */
+:root {
+  --reader-max-width: 78ch;      /* ideal reading width */
+  --reader-font-scale: 1.18;     /* scale factor for text inside .center */
+  --reader-line-height: 1.9;     /* comfortable line height */
+  --reader-padding-h: 1.6rem;    /* horizontal padding inside reader mode */
+  --reader-bg-light: rgba(255,255,255,0.0);
+  --reader-bg-dark: rgba(255,255,255,0.02);
+}
+
+/* Keep default reader button visuals (your original) */
 .readermode {
   cursor: pointer;
   padding: 0;
@@ -17,18 +33,151 @@
     top: calc(50% - 10px);
     fill: var(--darkgray);
     stroke: var(--darkgray);
-    transition: opacity 0.1s ease;
+    transition: opacity 0.1s ease, transform 0.12s ease, fill 0.12s ease;
+  }
+
+  &[aria-pressed="true"] svg {
+    transform: scale(1.06);
+    fill: var(--secondary);
+    stroke: var(--secondary);
   }
 }
 
+/* === Reader mode active: target .center specifically ===
+   We use very specific selectors and only override layout/typography
+   for .center and its children. We intentionally DO NOT change
+   global font-size or root font-size (so sidebar unaffected).
+*/
 :root[reader-mode="on"] {
-  & .sidebar.left,
-  & .sidebar.right {
+  .center iframe {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 100% !important;
+    /* biarkan tinggi defaultnya (jangan auto) */
+  }
+
+  /* khusus untuk Google Drive PDF preview / dokumen embed */
+  .center iframe[src*="drive.google.com"] {
+    height: 600px !important; /* atau gunakan tinggi yang kamu inginkan */
+  }
+  /* fade sidebars visually but allow hover to bring them back */
+  .sidebar.left,
+  .sidebar.right {
     opacity: 0;
     transition: opacity 0.2s ease;
+    /* keep pointer events so hover still works */
+    z-index: 30;
+  }
+  .sidebar.left:hover,
+  .sidebar.right:hover {
+    opacity: 1;
+  }
 
-    &:hover {
-      opacity: 1;
-    }
+  /* --- CORE: expand the center column and scale only its text --- */
+  .center {
+    /* layout */
+    width: auto !important;
+    max-width: var(--reader-max-width) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: var(--reader-padding-h) !important;
+    padding-right: var(--reader-padding-h) !important;
+
+    /* typography: scale only inside .center */
+    /* NOTE: we do NOT change html/body font-size so sibling sidebars stay unaffected */
+    font-size: calc(1rem * var(--reader-font-scale)) !important;
+    line-height: var(--reader-line-height) !important;
+
+    color: inherit !important;
+    background: transparent !important;
+
+    transition: max-width 220ms ease, padding 220ms ease, font-size 220ms ease;
+  }
+
+  /* ensure main content parts inside .center inherit the new sizing */
+  .center .page-header,
+  .center article,
+  .center .page-footer,
+  .center .page-body,
+  .center .content,
+  .center .content-page,
+  .center .post,
+  .center .markdown {
+    font-size: inherit !important;
+    line-height: inherit !important;
+  }
+
+  /* headings scale relative to the scaled base font */
+  .center h1 { font-size: calc(2.0 * var(--reader-font-scale)) !important; }
+  .center h2 { font-size: calc(1.45 * var(--reader-font-scale)) !important; }
+  .center h3 { font-size: calc(1.25 * var(--reader-font-scale)) !important; }
+
+  /* code blocks/readable sizes */
+  .center pre,
+  .center code {
+    font-size: calc(0.95 * var(--reader-font-scale)) !important;
+    line-height: 1.5 !important;
+    word-break: break-word;
+  }
+
+  /* images & iframes: responsive inside reading column */
+  .center img,
+  .center iframe,
+  .center video {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  /* tables: allow horizontal scroll */
+  .center table,
+  .center thead,
+  .center tbody {
+    max-width: 100% !important;
+    overflow: auto !important;
+    display: block !important;
+  }
+
+  /* blockquote nicer */
+  .center blockquote {
+    padding-left: 1rem !important;
+    border-left: 3px solid rgba(0,0,0,0.06) !important;
+    font-style: italic !important;
+    margin: 0.8rem 0 !important;
+  }
+
+  /* long links: wrap */
+  .center a {
+    word-break: break-word !important;
+  }
+
+  /* Ensure sidebars do NOT inherit or pick up increased font-size:
+     explicitly reset font-size in sidebars to their computed value */
+  .sidebar.left,
+  .sidebar.right {
+    /* prefer to keep original size; 'initial' can reset to UA but keep stable */
+    font-size: initial !important;
+    line-height: initial !important;
+  }
+}
+
+/* Dark mode tweak when site uses data-theme="dark" on <html> */
+[data-theme="dark"][reader-mode="on"],
+[reader-mode="on"][data-theme="dark"] {
+  .center {
+    background: var(--reader-bg-dark) !important;
+  }
+
+  .center blockquote {
+    border-left-color: rgba(255,255,255,0.06) !important;
+  }
+
+  /* active icon tweak */
+  .readermode[aria-pressed="true"] svg {
+    fill: #ffd !important;
+    stroke: #ffd !important;
   }
 }
