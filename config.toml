@@ -1,0 +1,5 @@
+baseURL = "https://miptah21.github.io/blog/"
+languageCode = "en-us"
+title = "Miftah Notes"
+theme = "quartz"
+enableRobotsTXT = true
