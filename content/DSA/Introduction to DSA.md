@@ -13,7 +13,7 @@
 - Height = if you have 1 desc and 1 ancestor you can count 2 nodes is the height from original nodes. (ex: the height  of nodes 1 is 2 "nodes 1 and 4")
 - in *some case* people called the height of single nodes is zero, and for the height of two nodes is 1, and ect. but we don't prefer to count this way.
 - depth = is same as height but you count from down.
-![BT](/static/DSA/images/bt.png)
+![BT](/DSA/images/bt.png)
 
 *Example*
 ```java
@@ -42,7 +42,7 @@ class TreeNode {
 - Time Complexity = h(height of trees) or O(log(n)) -> only if we get binary tree balance, meaning that the high left and right of sub tree is equal or maybe differ by only one, if not balance the time complexity = O(n) or most people will say O(h) -> height
 - inserting/deleting value in BST can also be log(n)
 
-![BST](/static/DSA/images/bst.png)
+![BST](/DSA/images/bst.png)
 
 *Example:*
 ```python
@@ -66,7 +66,7 @@ class TreeNode {
 - insert nodes at leaf nodes more easy but will cause not balance
 - time complexity is the height of the trees, if balance = O(log(n))
 
-![bst-insert](/static/DSA/images/bst-insert.png)
+![bst-insert](/DSA/images/bst-insert.png)
 
 *Example:*
 ```python
@@ -89,7 +89,7 @@ def insert(root, val):
 - if remove root nodes, replaces it with leaf nodes / the smallest value, in the right sub trees
 - or you can replace it with the largest value from the left sub trees
 
-![bst-remove](/static/DSA/images/bst-remove.png)
+![bst-remove](/DSA/images/bst-remove.png)
 
 
 *Example:*
@@ -135,7 +135,7 @@ def remove(root, val):
 	- traves it/building output array = O(n)
 	- so time complexity = O(n + nlogn) --> nly cares the larger = O(nlogn)
 	- so to sorting random array using bst-traversal need time comlexity = O(nlogn)
-![bst-inorder-traversal](/static/DSA/images/bst-inorder-traversal.png)
+![bst-inorder-traversal](/DSA/images/bst-inorder-traversal.png)
 
 *Example:*
 ```python
@@ -203,7 +203,7 @@ def reverseorder(root):
 - Queue = the data structure that  we use, add the element first in first out
 - Time complexity = O(n)
 
-![bst-level-order-traversal](/static/DSA/images/bst-level-order-traversal.png)
+![bst-level-order-traversal](/DSA/images/bst-level-order-traversal.png)
 
 *Example:*
 ```python
@@ -293,7 +293,7 @@ TreeMap<String, String> tree_map
 - Time complexity:
 	- Worst case = O(n) -> travers entire trees / runs all possibility
 
-![backtracking](/static/DSA/images/backtracking.png)
+![backtracking](/DSA/images/backtracking.png)
 
 *Example:*
 ```python
@@ -311,7 +311,7 @@ def canReachLeaf(root):
 ```
 
 *Instead return True or False, lets just return what the value of the path*
-![backtracking2](/static/DSA/images/backtracking2.png)
+![backtracking2](/DSA/images/backtracking2.png)
 
 
 *Example:*
@@ -341,7 +341,7 @@ def leafPath(root, path):
 - the priority is variety, based on (Min/Max)
 - Heap/Priority Queue = interface with priority queue, but under the hood implemented using heap.
 - Min is most common use in heap
-![Priority-Queue](/static/DSA/images/Priority-Queue.png)
+![Priority-Queue](/DSA/images/Priority-Queue.png)
 
 
 - Binary Heap is essentially tress that is consider complete Binary Trees. or means we have a trees that every single level of the trees there is no holes or null expect thelast level of the trees or leaf nodes.
