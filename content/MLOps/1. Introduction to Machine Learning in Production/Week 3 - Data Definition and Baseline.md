@@ -2,14 +2,14 @@ Dokumen ini membahas **definisi data** dan **menetapkan baseline performa** untu
 
 ---
 
-## 📌 1. Mengapa Data Definition Sulit
+## 1. Mengapa Data Definition Sulit
 - Labeling tidak konsisten → algoritma bingung.
 - Contoh: deteksi iguana, defect phone, speech recognition.
 - Instruksi labeling ambigu → interpretasi berbeda antar labeler.
 
 ---
 
-## 📌 2. Jenis Masalah Data
+## 2. Jenis Masalah Data
 Dikelompokkan menurut **data type** & **jumlah data**:
 
 | Data Type | Small Data (≤10k) | Big Data (>10k) |
@@ -22,7 +22,7 @@ Dikelompokkan menurut **data type** & **jumlah data**:
 
 ---
 
-## 📌 3. Meningkatkan Konsistensi Label
+## 3. Meningkatkan Konsistensi Label
 - Beberapa labeler memberi anotasi pada contoh yang sama.
 - Diskusi antara ML engineer, expert, dan labeler untuk menyepakati definisi.
 - Jika input (x) kurang jelas → perbaiki (misal lighting kamera).
@@ -34,14 +34,14 @@ Dikelompokkan menurut **data type** & **jumlah data**:
 
 ---
 
-## 📌 4. Human Level Performance (HLP)
+## 4. Human Level Performance (HLP)
 - **Kenapa diukur:** estimasi Bayes error, prioritas error, target realistis untuk bisnis.
 - **Tantangan:** HLP bisa memberi algoritma “keuntungan” jika instruksi labeling ambigu.
 - **Meningkatkan HLP:** perbaiki konsistensi labeling → data lebih bersih → ML lebih baik.
 
 ---
 
-## 📌 5. Mendapatkan Data
+## 5. Mendapatkan Data
 - **Time investment:** fokus iterasi cepat (model, hyperparameter, data, training, error analysis).
 - **Inventory data sources:** milik sendiri, crowdsourced, paid, purchased. Pertimbangkan jumlah, biaya, kualitas, privasi, regulasi.
 - **Labeling options:** in-house, outsourced, crowdsourced. 
@@ -51,7 +51,7 @@ Dikelompokkan menurut **data type** & **jumlah data**:
 
 ---
 
-## 📌 6. Data Pipeline
+## 6. Data Pipeline
 - **Pre-processing & Cleaning:** spam removal, merge user ID, dsb.
 - **Replicability:** manual pre-processing OK di POC, tapi untuk production gunakan tools: TensorFlow Transform, Apache Beam, Airflow.
 - **Meta-data, Provenance & Lineage:**
@@ -62,13 +62,13 @@ Dikelompokkan menurut **data type** & **jumlah data**:
 
 ---
 
-## 📌 7. Balanced Train/Dev/Test Splits
+## 7. Balanced Train/Dev/Test Splits
 - Small datasets: random split bisa tidak representatif → gunakan **balanced split** (proporsi positif sama di train/dev/test).
 - Large datasets: random split biasanya cukup representatif.
 
 ---
 
-## 📌 8. Scoping Proyek ML
+## 8. Scoping Proyek ML
 - Tujuan: pastikan **impact & feasibility**.
 - **Proses:**
   1. Brainstorm masalah bisnis → solusi AI

@@ -1,7 +1,7 @@
 Dokumen ini memberikan **overview ML lifecycle dan deployment**, serta menekankan pentingnya **MLOps** untuk membangun karier AI yang efektif.
 
 
-## 📌 Takeaways Utama
+## Takeaways Utama
 
 ### 1. Pentingnya MLOps
 - Karier AI yang efektif membutuhkan:
