@@ -28,6 +28,8 @@ export default ((userOpts?: Partial<SearchOptions>) => {
             </g>
           </svg>
           <p>{i18n(cfg.locale).components.search.title}</p>
+          {/* Shortcut hint */}
+          <span class="shortcut-hint">Ctrl + K</span>
         </button>
         <div class="search-container">
           <div class="search-space">
@@ -47,7 +49,34 @@ export default ((userOpts?: Partial<SearchOptions>) => {
   }
 
   Search.afterDOMLoaded = script
-  Search.css = style
+  Search.css = `
+    ${style}
+
+    .search-button {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      position: relative;
+    }
+
+    .shortcut-hint {
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: #3a3a3a; /* abu gelap untuk light mode */
+      background: #f2eee9; /* lembut, lebih kontras dibanding putih */
+      border-radius: 4px;
+      padding: 2px 8px;
+      margin-left: 6px;
+      font-family: monospace;
+      line-height: 1.3;
+    }
+
+    /* Dark mode */
+    :root[saved-theme="dark"] .shortcut-hint {
+      color: #f2f2f2; /* terang */
+      background: rgba(255, 255, 255, 0.1); /* transparan lembut */
+    }
+  `
 
   return Search
 }) satisfies QuartzComponentConstructor

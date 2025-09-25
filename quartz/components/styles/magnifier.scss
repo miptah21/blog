@@ -1,0 +1,38 @@
+/* quartz/components/styles/magnifier.scss */
+
+/* overlay circle (visual cue) */
+.quartz-magnifier-overlay {
+  position: fixed;
+  pointer-events: none; /* tidak menangkap klik */
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  backdrop-filter: blur(0.6px);
+  -webkit-backdrop-filter: blur(0.6px);
+  z-index: 999998;
+  display: none;
+  transform: translateZ(0);
+}
+
+/* kelas body ketika magnifier aktif (bisa dipakai untuk styling lain) */
+body.magnifier-active {
+  /* contoh: kurangi transition global untuk menghindari lag visual */
+}
+
+/* responsive tweak: nonaktifkan overlay di mobile (jika mau) */
+@media (max-width: 480px) {
+  .quartz-magnifier-overlay {
+    display: none !important;
+  }
+}
+
+/* styling tombol toggle (jika kamu buat komponen button) */
+.magnifier-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.25rem;
+}
