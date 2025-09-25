@@ -1,15 +1,18 @@
-footer {
-  text-align: left;
-  margin-bottom: 4rem;
-  opacity: 0.7;
+/* footer.scss */
+.quartz-footer {
+  text-align: center;
+  padding: 1.2rem;
+  font-size: 0.95rem;
+}
 
-  & ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    margin-top: -1rem;
-  }
+/* Light mode */
+[data-theme="light"] .quartz-footer {
+  background: #efebe7;
+  color: #3e2f15;
+}
+
+/* Dark mode */
+[data-theme="dark"] .quartz-footer {
+  background: #161618;
+  color: #ebebec;
 }

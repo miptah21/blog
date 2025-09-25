@@ -1,6 +1,7 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 import HeaderIndex from "./quartz/components/HeaderIndex"
+import MediumArticle from "./quartz/components/MediumArticle"
 
 /**
  * Quartz 4 Configuration
@@ -30,14 +31,14 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#fff8e1", // background utama, soft cream-kuning
-          lightgray: "#fffde7", // elemen sekunder, sangat lembut
-          gray: "#f0e6b6", // untuk blok konten / card
-          darkgray: "#a18f5a", // teks minor / border
-          dark: "#3e2f15", // teks utama, lebih gelap & mudah dibaca
+          light: "#efebe7", // background utama, soft cream
+          lightgray: "#f5f5f5", // elemen sekunder, card ringan
+          gray: "#d7ccc8", // blok konten / card
+          darkgray: "#5d4037", // teks minor / border
+          dark: "#3e2723", // teks utama, lebih gelap & mudah dibaca
           secondary: "#284b63", // aksen/primary link
           tertiary: "#84a59d", // aksen sekunder
-          highlight: "rgba(255, 248, 225, 0.2)", // highlight transparan
+          highlight: "rgba(239, 235, 231, 0.2)", // highlight transparan
           textHighlight: "#ffd633", // teks highlight
         },
         darkMode: {
